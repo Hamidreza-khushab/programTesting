@@ -1,7 +1,7 @@
 const add = (input1, input2) =>
 {
     if (typeof input1 === 'string' || typeof input2 ==='string')
-    return 'error';
+    return 'erro';
     else
     return input1+input2;
 }
